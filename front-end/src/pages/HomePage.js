@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 
 const HomePage = () => {
 
@@ -10,8 +11,9 @@ const HomePage = () => {
   
           <Header/>
           <main>
-            {/* <Hero/>
-            <ResortList /> */}
+            <Hero/>
+            
+            {/* <ResortList /> */}
           </main>
           <Footer/>
   
