@@ -29,13 +29,16 @@ const Header = () => {
                             </form>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Properties Listing</a>
+                        <Link className="nav-link" to="/properties">Property Listing </Link>
                         </li>
                         <li className="nav-item dropdown">
-                        <DropdownButton id="dropdown-basic-button" title="Sign Up/Log In">
-                            <Dropdown.Item href="#/action-1">Sign Up</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">Log In</Dropdown.Item>
+                        <DropdownButton className="dropdown-basic-button" title="Sign Up/Log In">
+                            {/* <Dropdown.Item href="registration">Sign Up</Dropdown.Item> */}
+                            <Link to="/registration" className="nav-link" ><div className='dropdown.item'>Sign Up</div></Link>
+                            {/* <Dropdown.Item href="login">Log In</Dropdown.Item> */}
+                            <Link to="/login" className="nav-link" ><div className='dropdown.item'>Log In</div></Link>
                         </DropdownButton>
+
                         </li>
                     </ul>
                 </div>

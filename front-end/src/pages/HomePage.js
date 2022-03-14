@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Bestseller from '../components/Bestseller';
+import PropertyTypeList from '../components/PropertyTypeList';
 
 const HomePage = () => {
 
@@ -13,7 +14,7 @@ const HomePage = () => {
           <Header/>
           <main>
             <Hero/>
-            {/* <PropertyTypeList /> */}
+            <PropertyTypeList />
             <Bestseller/>
           </main>
           <Footer/>
