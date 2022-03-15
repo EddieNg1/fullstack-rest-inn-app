@@ -26,7 +26,7 @@ const RegistrationForm = () => {
         })
         .then(response=>response.json())
         .then(json=>{
-            alert(json.message);
+            alert((json.message) + "\n" + (json.data.length > 0 ? json.data[0].message : ""));
             setFormData({
                 firstName:"",
                 lastName: "",
