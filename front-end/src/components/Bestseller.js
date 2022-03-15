@@ -43,10 +43,6 @@ const Bestseller = () => {
               {properties.map(property=>( <PropertyItem id={property._id} title={property.title} image ={property.photoURL} price={property.rentalPrice} />))}
               
                   
-        
-                
-      
-      
               </div>
     
           </div>

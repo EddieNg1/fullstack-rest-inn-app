@@ -48,6 +48,7 @@ const Footer = () => {
         </div>
         <div class="footer-copyright text-center py-1">
         <a href="https://www.flaticon.com/free-icons/vacations" target="_blank" className="text-decoration-none" title="vacations icons">Vacation icon created by Freepik - Flaticon</a>
+        <p>Eddie Ng</p>
         </div>
     </footer>
     );

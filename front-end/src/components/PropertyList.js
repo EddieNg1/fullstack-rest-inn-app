@@ -25,8 +25,7 @@ const ResortList = () => {
     var search = '';
     useEffect(()=>{
         if(query !=null){search = `?type=`+query}
-        // console.log(query);
-        // console.log(search);
+
 
         const URL = 'https://powerful-journey-75366.herokuapp.com/properties' + `${search}`
     
@@ -55,10 +54,6 @@ const ResortList = () => {
               bestSeller={property.bestSeller}
               location={property.location}/>))}
               
-                  
-        
-                
-      
       
               </div>
     
