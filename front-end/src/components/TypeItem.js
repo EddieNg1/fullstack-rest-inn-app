@@ -14,10 +14,9 @@ const TypeItem = ({id,title,image,type}) => {
         <div className="card-body">
             <h3 className="card-title" style={{marginBottom:"100px"}}>{type}</h3>
             <div style={{position:"absolute", bottom:"0", marginBottom:"20px"}}>
-            {/* <p className="card-text" ></p> */}
             <Link to = {`/properties?type=${type}`} className="btn btn-primary">
             More  
-        </Link> 
+          </Link> 
         </div>
         </div>
 

@@ -41,14 +41,14 @@ const PropertyDescriptionPage = () => {
     
 
    },[])
-   var amenities = "";
-   properties.amenities.forEach(value =>{
-       amenities += value + " ";
-   })
-   var rules = "";
-   properties.houseRules.forEach(value =>{
-       rules += value + " ";
-   })
+//    var amenities = "";
+//    properties.amenities.forEach(value =>{
+//        amenities += value + " ";
+//    })
+//    var rules = "";
+//    properties.houseRules.forEach(value =>{
+//        rules += value + " ";
+//    })
   return (
     <div >
      
@@ -74,8 +74,8 @@ const PropertyDescriptionPage = () => {
             <div className='col-md-3'>
                 <h3>Price: ${properties.rentalPrice}</h3>
                 <div >{properties.bestSeller ? 'Bestseller' : ''}</div>
-                <p>House Rules: {rules}</p>
-                <p>Amenities: {amenities}</p>
+                <p>House Rules: {properties.houseRules}</p>
+                <p>Amenities: {properties.amenities}</p>
             </div>
         </div>
         
