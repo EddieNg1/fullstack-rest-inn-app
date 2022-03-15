@@ -36,19 +36,9 @@ const PropertyDescriptionPage = () => {
         setProperties(json.result)
     })
     .catch(err=>console.log(err))
-    // let title = properties.title;
-    // console.log(title);
     
 
    },[])
-//    var amenities = "";
-//    properties.amenities.forEach(value =>{
-//        amenities += value + " ";
-//    })
-//    var rules = "";
-//    properties.houseRules.forEach(value =>{
-//        rules += value + " ";
-//    })
   return (
     <div >
      
